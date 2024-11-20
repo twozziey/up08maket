@@ -1,0 +1,742 @@
+@font-face {
+    font-family: "Roboto";
+    src: url(fonts/Roboto/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: "OswaldSemiBold";
+    src: url(fonts/Oswald/static/Oswald-Medium.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+    font-weight: 100;
+    box-sizing: border-box;
+}
+.container {
+    width: 1170px;
+    margin: 0 auto;
+    /* justify-content: center; */
+}
+header {
+    background: #b5b8cb;
+}
+.header-back {
+    height: 650px;
+    width: 1366px;
+    background: url("image/BG.jpg") no-repeat;
+    margin: 0 auto;
+    padding-top: 35px;
+    color: white;
+}
+.header-menu {
+    height: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    background: url("image/MOUNTAIN.png") no-repeat;
+    width: 101px;
+    height: 21px;
+}
+header .menu {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 30px;
+
+}
+.logo-nav {
+    display: flex;
+    gap: 99px;
+}
+.user {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.user p {
+    margin-right: 13px;
+}
+.searchlogo, .userlogo {
+    height: 35px;
+    width: 35px;
+    border-radius: 20px;
+    
+}
+.searchlogo {
+    background: url("image/searchlogo.png") no-repeat center center, rgba(252, 252, 252, 0.4) ;
+}
+.userlogo {
+    background: url("image/userlogo.png") no-repeat center center, rgba(252, 252, 252, 0.4);
+}
+a {
+    color: white;
+    text-decoration: none ;
+}
+header h1 {
+    width: 325px;
+    height: 88px;
+    font-family: OswaldSemiBold;
+    font-size: 98px;
+    font-weight: 600;
+    margin: 0 auto;
+    margin-top: 165px;
+}
+.podbutt {
+    border: 2px solid white ;
+    margin: 0 auto;
+    width: 166px;
+    height: 41px;
+    margin-top: 80px;
+    margin-left: 596px;
+
+}
+.podrob {
+    margin: 0 auto;
+    width: 83px;
+    height: 11px;
+    margin-top: 10px;
+    margin-left: 43px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.tours{
+    margin-top: 134px;
+    display: flex;
+}
+.tours h2 {
+    width: 474px;
+    height: 107px;
+    font-family: OswaldSemiBold;
+    color: #061B28;
+    font-size: 52px;
+    font-weight: 600;
+    line-height: 59.8px;
+}
+.tours  {
+    background: url("image/map.png") no-repeat 75.5% 65%;    
+}
+.textblock {
+    width: 350px;
+}
+.tfirst, .tsec{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+}
+.tfirst {
+    margin-top: 50px;
+}
+.tsec {
+    margin-top: 15px;
+}
+
+.poptours {
+    margin: 0 auto;
+}
+.poptours h2 {
+    padding-top: 118px;
+    text-align: center;
+    font-family: OswaldSemiBold;
+    font-size: 52px;
+    font-weight: 600;
+}
+.blocks {
+    margin-top: 66px;
+    display: flex;
+    gap: 30px;
+}
+.blocks .img1, .img2, .img3{
+    width: 370px;
+    height: 326px;
+    
+}
+.blocks .block {
+    box-shadow: 0px -100px 69px -5px rgba(239, 239, 239, 0.8) inset;
+    width: 370px;
+    height: 326px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40px;
+}
+.img1 {
+    background-image: url(image/block1.jpg);
+}
+.img2 {
+    background: url(image/block2.jpg);
+}
+.img3 {
+    background: url(image/block3.jpg) no-repeat;
+}    
+.block .info-text {
+    display: flex;
+    gap: 10px;
+    padding-top: 15px;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.blocks h3 {
+    font-size: 26px;
+    margin-top: 38px;
+    margin-left: 7px;
+}
+.block-top {
+    display: flex;
+    justify-content: space-between;
+}
+.icon-metka {
+    background: url(image/metka.png);
+    width: 13px;
+    height: 16px;
+    display: inline-block;
+}
+.saved {
+    background: url(image/saved.png) no-repeat center center, rgba(252, 252, 252, 0.4);
+    height: 35px;
+    width: 35px;
+    border-radius: 20px;
+}
+.info h3 {
+    margin: 0 auto;
+    font-size: 26px;
+    font-family: OswaldSemiBold;
+}
+.icon-circle, .icon-circle2 {
+    background: url(image/medium.png);
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+}
+.lvlinfo {
+    font-size: 16px;
+}
+.russia {
+    background: #071a29;
+}
+.russia .container {
+    margin: 0 auto;
+    background: url(image/mountains.jpg);
+    width: 1366px;
+    height: 757px;
+    margin-top: 203px;
+}
+.russia .container h2 {
+    padding-top: 86px;
+    padding-bottom: 9px;
+    font-family: OswaldSemiBold;
+    text-align: center;
+    font-size: 52px;
+    color: white;
+}
+.russia .container p {
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    width: 242px;
+    margin: 0 auto;
+}
+
+.table > div {
+    display: flex;
+    width: 830px;
+    justify-content: center;
+    border-bottom: 1px solid #A7AEB4;
+    margin: 0 auto;
+}
+.firstrow {
+    padding: 60px;
+    padding-bottom: 10px;
+    color: #A7AEB4;
+    font-size: 18px;
+    gap: 109px;
+}
+.line {
+    padding: 18px 0;
+    padding-left: 10px;
+    color: white ;
+    font-size: 22px;
+    gap: 99px;
+}
+.blog  h2 {
+    font-family: OswaldSemiBold;
+    text-align: center;
+    font-size: 52px;
+    color: #061B28;
+    padding-top: 125px;
+    padding-bottom: 65px;
+    margin-bottom: 0;
+}
+.kak {
+    width: 400px;
+    height: 128px;
+    padding: 30px;
+    color: black;
+    padding-bottom: 20px;
+    border-bottom: 1px solid black;
+}
+.active {
+    background: #0c0c0c;    
+    color: white;
+}
+.date {
+    color: #7E8386;
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+.newstext {
+    font-size: 18px;
+    line-height: 140%;
+}
+.red {
+    margin-top: 22px;
+    color: white;
+    text-align: center;
+    background: #EC5118;
+    height: 50px;
+    padding: 15px;
+    width: 100%;
+    border: 0;
+    font-size: 16px;
+}
+.alpinists {
+    background: url(image/alpinists.jpg);
+    width: 700px;
+    height: 287px;
+}
+.blog .container {
+    display: flex;
+    gap: 70px;
+    flex-wrap: wrap;
+}
+.datenew {
+    color: #7E8386;
+    font-size: 14px;
+    padding-top: 35px;
+    padding-bottom: 10px;
+}
+.newname {
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 22px;
+    padding-bottom: 20px;
+}
+.textnew1, .textnew2 {
+    width: 690px;
+    font-size: 16px;
+    line-height: 150%;
+}
+.textnew2    {
+    padding-top: 10px;;
+}
+.help {
+    margin-top: 144px ;
+    background: #061B28;
+}
+.help .container {
+    width: 1366px; 
+    display: flex;
+    /* gap: 60px; */
+} 
+.blackside {
+    background: #061B28;
+    width: 683px;
+    height: 690px;
+    padding: 75px 0 0 98px;
+}
+.sideimage {
+    width: 683px;
+    height: 690px;
+}
+.help .container h2 {
+    width: 520px;
+    font-family: OswaldSemiBold;
+    font-size: 52px;
+    color: white;
+    line-height: 115%;
+}
+.help .container p {
+    width: 472px;
+    padding-top: 27px;
+    font-size: 18px;
+    color: white;
+    line-height: 150%;
+}
+.help input{
+    display: block;
+    width: 525px;
+    padding-left: 0;
+    padding-bottom: 5px;
+    padding-top: 26px;
+    color: #7E8386;
+    margin: 10px 0;
+    border: 0;
+    border-bottom: 1px solid #7E8386;
+    background: none;
+font-size: 16px;
+}
+.help .red {
+    width: 525px;
+    margin-top: 40px; 
+}
+.help .container .soglasie {
+    width: 393px;
+    padding-top: 20px;
+    font-size: 14px;
+    color: white;
+    line-height: 140%;
+}
+.contact{
+    padding-top: 145px;
+
+}
+.contact .container  {
+    display: flex;
+    gap: 70px
+}
+.karta {
+    background: url(image/map2.png);
+    width: 600px;
+    height: 457px;
+    position: relative;
+}
+.metkamap {
+    width: 33px;
+    height: 40px;
+    background: url(image/bigmetka.png) no-repeat;
+    position: absolute;
+    top: 202px;
+    left: 172px;
+}
+.contacttext h2 {
+    font-family: OswaldSemiBold;
+    color: #061B28;
+    font-size: 52px;
+    font-weight: 600;
+    line-height: 75%;
+    margin-bottom: 60px;
+}
+.contacttext {
+    width: 305px;
+}
+.topcontact {
+    font-size: 18px;
+    line-height: 150%;
+    color: black;
+margin-bottom: 3px;
+}
+.bottomcontact {
+    font-size: 22px;
+    line-height: 140%;
+    font-weight: 600;
+}
+.social {
+    background: url(image/zapreshenovrf.png);
+    width: 117px;
+    height: 20px;
+}
+.contactblock {
+    padding-bottom: 30px;
+}
+footer {
+    margin-top: 110px;
+    width: 100%;
+    height: 121px;
+    background: #061B28;
+}
+footer .container {
+    padding-top: 53px;
+    display: flex;
+    justify-content: space-between;
+}
+footer p {
+    color: white;
+    font-size: 12px;
+}
+.footerlogo {
+    background: url(image/MOUNTAIN.png) no-repeat;
+    width: 101px;
+    height: 24px;
+}
+header .burger-menu {
+    display: none;
+}
+.page-title {
+    text-align: center;
+  }
+  .slider-container {
+    position: relative;
+    width: 683px;
+    height: 690px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  .slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  .slider img {
+    width: 683px;
+    height: 690px;
+    object-fit: cover;
+  }
+  .next-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    color: white;
+  }
+  .prev-button {
+    left: 10px;
+  }
+  .next-button {
+    right: 10px;
+  }
+  .modal {
+    display: none; 
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4); 
+  }
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; 
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 600px; 
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .hamburger {
+      cursor: pointer;
+      display: none;
+  }
+  .burgerline {
+      width: 30px;
+      height: 3px;
+      background-color: white;
+      margin: 5px 00;
+      transition: all 0.3s ease;
+  }
+  .active .burgerline:nth-child(1) {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+.active .burgerline:nth-child(2) {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+.active .burgerline:nth-child(3) {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+@media screen and (max-width: 480px) {
+    .hamburger {
+        cursor: pointer;
+        display: block;
+        margin: auto 10px;
+        position: absolute;
+ 
+    }
+    header ul {
+        display: none;
+    }
+    header ul.show-menu {
+        display: flex;
+        flex-direction: column;
+        align-items: right;
+        width: 150px;
+    }
+
+    header {
+        flex-direction: column;
+        gap: 20px;
+        }
+        .logo {
+            position: absolute;
+            left: 250px;
+        }
+}
+@media (min-width:375px) and (max-width: 720px) {
+    .container {
+        width: 100%;
+    }
+    header .menu {
+        display: none;
+        
+    }
+    header .header-menu {
+        height: auto;
+    }
+    header .burger-menu {
+        display: none;
+        flex-direction: column;
+        gap: 10px;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        background: lightblue;
+        list-style: none;
+        padding: 15px;
+        
+    }
+    .header-back {
+        width: 100%;
+    }
+    header .user {
+        display: none;
+    }
+    header h1 {
+        display: none;
+    }
+    header .podbutt {
+        display: none;
+    }
+    header .logo {
+        margin: 15px;
+    }
+    header {
+        width: 100%;
+        /* padding: 5%; */
+    }
+    .tours h2 {
+        width: 300px;
+        font-size: 32px;
+        text-align: left;
+    }
+    .tours p {
+        width: 300px;
+    }
+    .tours {
+        margin: 15%;
+    background: none;
+    }
+    .poptours {
+        margin: 3%
+    }
+    .poptours h2 {
+        width: 300px;
+        font-size: 32px;
+        line-height: 0;
+        text-align: left;
+    }
+    .blocks {
+        display: block;
+    } 
+    .block {
+        width: 30%;
+    }
+    .russia .container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto; 
+    }
+    .russia .container h2 {
+        margin: 1%;
+    }
+    .table > div {
+        width: 100%;     
+        gap: 10px;
+        font-size: 1em;
+        flex-wrap: wrap;
+    }
+    .russia .firstrow {
+        display: none;
+    }
+    article {
+        width: 100%;
+        padding: 10%;
+    }
+    .alpinists {
+        width: 100%;
+    }
+    .novosti {
+        width: 100%;
+    }
+    .kak {
+        width: 100%;
+    }
+    .textnew1, .textnew2 {
+        width: 100%;
+    }
+    .blackside {
+        width: 100%;
+    }
+    .help .container {
+        width: 100%;
+    }
+    .help .container h2 {
+        font-size: medium;
+        padding-left: 0px;
+        font-size: 32px;
+        width: 300px;
+    }
+    .help .container p {
+        width: 300px;
+    }
+    .help input {
+        width: 100%;
+    }
+    .help .red {
+        width: 100%
+    }
+    .blackside {
+        width: 100%;
+        padding: 5%;
+    }
+    .sideimage {
+        display: none;
+    }
+    .help .container .soglasie {
+
+        width: 300px;
+    }
+    .karta {
+        display: none;
+    }
+    .contacttext {
+        width: 300px;
+        margin-left: 5%;
+    }
+    footer .container {
+        display: inline-block;
+        padding-top: 3%;
+        
+    }
+    footer .container p{
+        font-size: 8px;
+        width: 10%;
+        padding: 2%;
+    }
+    footer .container  .politic {
+        display: none;
+    }
+    .footerlogo {
+        margin: 2%;
+    }
+
+}

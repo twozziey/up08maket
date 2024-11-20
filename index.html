@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="header-back">
+            <div class="container header-menu">
+                <div class="logo-nav">
+                    <div class="logo"></div>
+                    <nav>
+                        <ul class="menu">
+                            <li><a href="#">О нас</a></li>
+                            <li><a href="#">Туры</a></li>
+                            <li><a href="#">Подбор тура</a></li>
+                            <li><a href="#">Блог</a></li>
+                            <li><a href="#">Контакты</a></li>
+                        </ul>
+                    </nav>
+                    <ul class="burger-menu">
+                        <li><a href="#">О нас</a></li>
+                        <li><a href="#">Туры</a></li>
+                        <li><a href="#">Подбор тура</a></li>
+                        <li><a href="#">Блог</a></li>
+                        <li><a href="#">Контакты</a></li>
+                    </ul>
+                    <div class="hamburger menu-toggle">
+                        <div class="burgerline"></div>
+                        <div class="burgerline"></div>
+                        <div class="burgerline"></div>
+                    </div>
+                </div>
+            
+                <div class="user">
+                    <p>8 (800) 777-33-25</p>
+                    <div class="searchlogo"></div>
+                    <div class="userlogo"id="openModalBtn"></div>                
+                </div>
+            </div>
+            <h1>Эверест</h1>
+            <div class="podbutt">
+                <p class="podrob">Подробнее</p>
+            </div>
+            <section class="startscreen">
+                <div class="container"></div>
+        
+            </section>
+        </div>
+    </header>
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+          <span class="close" onclick="closeModal()">х</span>
+          <h2>Это ваш профиль</h2>
+          <p>Зуев Захар</p>
+          
+        </div>
+      </div>
+
+    <section class="tours">
+        <div class="container">
+            <h2>Туры с восхождением на вершины мира</h2>
+            <div class="textblock">
+                <p class="tfirst">Мы являемся экспертами в организации альпинистских туров для опытных альпинистов и для новичков. Вы можете доверить нам полную организацию вашего приключения от А до Я и быть уверенными в качестве и безопасности восхождения.</p>
+            <p class="tsec"> Наша компания предоставляет все необходимое: консультацию по выбору тура, перелет, визу, бронирование проживания, питание, оборудование, необходимое для восхождения, опытных гидов, полное сопровождение.</p>
+
+            </div>            
+        </div>
+    </section>
+    <section class="poptours">
+        <div class="container">
+            <h2>Популярные туры</h2>
+            <div class="blocks">
+                <div class="block img1">
+                    <div class="block-top">
+                        <div class="object"><span class="icon-metka"></span> Россия</div>
+                        <div class="saved"></div>
+                    </div>                  
+                    <div class="info">
+                        <h3>Белуха</h3>
+                        <div class="info-text"> <span>4506 м</span> | <span>12 дней</span> | <span>от 45000 &#8381</span> </div>
+                        <div class="lvlinfo"><span class="icon-circle"></span> Средний уровень</div>
+                    </div>
+                </div>
+                <div class="block img2">
+                    <div class="block-top">
+                        <div class="object"><span class="icon-metka"></span> Россия</div>
+                        <div class="saved"></div>
+                    </div>                  
+                    <div class="info">
+                        <h3>Эльбрус</h3>
+                        <div class="info-text"> <span>4506 м</span> | <span>12 дней</span> | <span>от 45000 &#8381</span> </div>
+                        <div class="lvlinfo"><span class="icon-circle"></span> Средний уровень</div>
+                    </div>
+                </div>
+                <div class="block img3">
+                    <div class="block-top">
+                        <div class="object"><span class="icon-metka"></span> Танзания</div>
+                        <div class="saved"></div>
+                    </div>                  
+                    <div class="info">
+                        <h3>Килиманджаро</h3>
+                        <div class="info-text"> <span>4506 м</span> | <span>12 дней</span> | <span>от 45000 &#8381</span> </div>
+                        <div class="lvlinfo"><span class="icon-circle2"></span> Простой уровень</div>
+                    </div>
+                </div>
+            </div> 
+        </div>
+    </section>
+    <section class="russia">
+        <div class="container">
+            <h2>Россия</h2>
+            <p>Более 15 туров для альпинистов всех уровней</p>
+            <div class="table">
+                <div class="firstrow">
+                    <div class="vershina">Вершина</div>
+                    <div class="visota">Высота</div>
+                    <div class="uroven">Уровень</div>
+                    <div class="stoim">Стоимость</div>
+                </div>
+                <div class="line">
+                    <div class="vershina">Эльбрус</div>
+                    <div class="visota">5624 м</div>
+                    <div class="uroven">Средний</div>
+                    <div class="stoim">От 25 000 &#8381</div>
+                </div>
+                <div class="line">
+                    <div class="vershina">Казбек</div>
+                    <div class="visota">5033 м</div>
+                    <div class="uroven">Сложный</div>
+                    <div class="stoim">От 30 000 &#8381</div>
+                </div>
+                <div class="line">
+                    <div class="vershina">Белуха</div>
+                    <div class="visota">5506 м</div>
+                    <div class="uroven">Простой</div>
+                    <div class="stoim">От 20 000 &#8381</div>
+                </div>
+                <div class="line">
+                    <div class="vershina">Дыхтау</div>
+                    <div class="visota">5204 м</div>
+                    <div class="uroven">Сложный</div>
+                    <div class="stoim">От 40 000 &#8381</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="blog">
+        <h2>Блог</h2>
+        <div class="container">
+            <div class="novosti">
+                <div class="kak active">
+                    <p class="date">15 января, 2020</p>
+                    <p class="newstext">Как подготовиться к первому восхождению на вершину</p>
+                </div>
+                <div class="kak">
+                    <p class="date">10 января, 2020</p>
+                    <p class="newstext">Фестиваль Alpika Freeski Аlpindustria Fest
+                        Красная Поляна 13-16 февраля</p>
+                </div>
+                <div class="kak">
+                    <p class="date">20 декабря, 2019</p>
+                    <p class="newstext">Особенности альпинизма на Камчатке.
+                        Все о Ключевой Сопке</p>
+                </div>
+                <div class="kak">
+                    <p class="date">15 декабря, 2019</p>
+                    <p class="newstext">Что происходит с человеком на высоте более 3000 метров?</p>
+                </div>
+                <div class="kak">
+                    <p class="date">15 декабря, 2019</p>
+                    <p class="newstext">Что происходит с человеком на высоте более 3000 метров?</p>
+                </div>
+                <button class="red">Читать все новости</button>
+            </div>
+            <article>
+                <div class="alpinists"></div>
+                <p class="datenew">15 января, 2020</p>  
+                <p class="newname">Как подготовиться к первому восхождению на вершину</p>
+                <p class="textnew1">Перед тем, как отправиться на покорение вершины горы, нужно не только привести    
+                          в порядок свою физическую форму, но и тренировать выносливость, дыхательную и сердечно-сосудистую системы. 
+                          Именно на них приходится максимальная нагрузка на высоте. Поэтому из-за недостаточной подготовки 
+                          вы можете сойти на полпути. Чтобы этого не случилось, занимайтесь плаванием, 
+                          бегом, велосипедом и кардиотренировками</p>
+                <p class="textnew2">Как должны проходить тренировки? В первую очередь, тренировки должны проходить постоянно, 
+                    эффективно и интенсивно. Кроме того, нагрузка постепенно должна увеличиваться. В случае с бегом обязательно делать 
+                    это с учетом пульса. Грамотно спланированный бег позволит не только сбросить вес, но и укрепит сердечную мышцу. 
+                    При беге с высоким пульсом вы позволите организму привыкнуть к недостатку кислорода — то, с чем обязательно встретитесь 
+                    в горах. Для укрепления физической подготовки и повышения выносливости также бегайте в горку 
+                    или в быстром темпе поднимайтесь по лестницам. И не забудьте отдохнуть за неделю до путешествия!</p>
+            </article>
+        </div>
+    </section>
+
+    <section class="help">
+        <div class="container">
+            <div class="blackside">
+                <h2>Нужна помощь с выбором тура?</h2>
+                <p>Заполните форму, наш менеджер свяжется с вами в ближайшее время и подберет подходящий тур</p>
+                <form action="">
+                     <input type="text" placeholder="Имя">
+                    <input type="text" placeholder="Телефон">
+                    <input type="email" placeholder="E-mail">
+                    <button class="red">Отправить</button>
+                    <div class="soglasie">Нажимая кнопку, вы соглашаетесь с условиями обработки персональных данных</div>
+                </form>
+               
+            </div>
+            <div class="sideimage">
+                <div class="slider-container">
+                    <div class="slider">
+                      <img src="image/1.jpg">
+                      <img src="image/2.jpg">
+                      <img src="image/3.jpg">
+                      <img src="image/4.jpg">
+                      <img src="image/5.jpg">
+                    </div>
+                    <button class="prev-button" type="button" 
+                    aria-label="Посмотреть предыдущий слайд">&lt;</button>
+                    <button class="next-button" type="button" 
+                    aria-label="Посмотреть следующий слайд">&gt;</button>
+                  </div>
+            </div>
+            </div>            
+        </div>
+    </section>
+
+    <section class="contact">
+        <div class="container">
+            <div class="karta">
+                <div class="metkamap"></div>
+            </div>
+            <div class="contacttext">
+                <h2>Контакты</h2>
+                <div class="contactblock">
+                    <div class="topcontact">Адрес:</div>
+                    <div class="bottomcontact">Санкт-Петербург, ул. Большая Конюшенная, 19</div>
+                </div>
+                <div class="contactblock">
+                    <div class="topcontact">Телефон:</div>
+                 <div class="bottomcontact">8 (800) 777-33-25</div>
+                </div>
+                <div class="contactblock">
+                    <div class="topcontact">E-mail:</div>
+                    <div class="bottomcontact">info@mountain.ru</div>
+                </div>
+                <div class="contactblock">
+                    <div class="topcontact">Социальные сети:</div>
+                    <div class="social"></div>
+                </div>
+                
+            </div>
+            </div>            
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p class="maroon">Maroon  &copy  2020 Все права защищены</p>
+            <div class="footerlogo"></div>
+            <p class="politic">Политика конфиденциальности</p>
+        </div>
+    </footer>
+
+    <script src="scripts/script.js"></script>
+</body>
+</html>
