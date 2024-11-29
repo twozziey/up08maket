@@ -278,7 +278,7 @@ header h1 {
     padding-bottom: 20px;
     border-bottom: 1px solid black;
 }
-.active {
+.kak active {
     background: #0c0c0c;    
     color: white;
 }
@@ -545,13 +545,13 @@ header .burger-menu {
       transition: all 0.3s ease;
   }
   .active .burgerline:nth-child(1) {
-    transform: rotate(-45deg) translate(-5px, 6px);
+    transform: rotate(-20deg) translate(-5px, 6px);
 }
 .active .burgerline:nth-child(2) {
-    transform: rotate(-45deg) translate(-5px, 6px);
+    transform: rotate(-20deg) translate(-5px, 6px);
 }
 .active .burgerline:nth-child(3) {
-    transform: rotate(-45deg) translate(-5px, 6px);
+    transform: rotate(-20deg) translate(-5px, 6px);
 }
 @media screen and (max-width: 480px) {
     .hamburger {
